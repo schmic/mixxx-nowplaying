@@ -484,7 +484,7 @@ func main() {
 		if err != nil {
 			logger.Fatalf("resolve home directory: %v", err)
 		}
-		dbPath = filepath.Join(home, ".mixxx.dev", "mixxxdb.sqlite")
+		dbPath = filepath.Join(home, ".mixxx", "mixxxdb.sqlite")
 	}
 
 	db, err := sql.Open("sqlite", dbPath)
