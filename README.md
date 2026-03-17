@@ -2,6 +2,8 @@
 
 `mixxx-nowplaying` is a small HTTP server that reads the currently playing track from the Mixxx database and serves a minimal now playing page.
 
+![Mixxx Now Playing screenshot](screenshot.png)
+
 The UI shows:
 
 - cover art in a square block on the left
@@ -23,7 +25,7 @@ The UI shows:
 Default database path:
 
 ```text
-$HOME/.mixxx.dev/mixxxdb.sqlite
+$HOME/.mixxx/mixxxdb.sqlite
 ```
 
 Set `MIXXX_DB_PATH` to use a different database file.
