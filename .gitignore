@@ -1,0 +1,11 @@
+# Binaries
+mixxx-nowplaying
+mixxx-nowplaying.exe
+
+# Go build and test artifacts
+*.test
+*.out
+coverage.out
+
+# Editor and OS noise
+.DS_Store
